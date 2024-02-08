@@ -1,0 +1,178 @@
+<!-- 
+Project: Project 2 (About Me CSS)
+Name: Andrew Todd
+Submitted: 02/03/24 - 8:20PM
+
+I declare that the following source code was written by me, or provided
+by the instructor for this project. I understand that copying source
+code from any other source, providing source code to another student, 
+or leaving my code on a public web site constitutes cheating.
+I acknowledge that  If I am found in violation of this policy this may result
+in a zero grade, a permanent record on file and possibly immediate failure of the class.
+ 
+Reflection:   My initial About Me page was already styled with CSS exept for one embeded style tag in the index.html, so this required no changes to the html other than that. The added styles were fairly simple to implement, but also pretty tedeous
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles.css">
+
+        <title>About Andrew Todd</title>
+    </head>
+
+    <body>
+        <div class="overlay-container">
+            <div class="embedded-document">
+                <h1 class="name">Andrew Todd</h1>
+        
+                <img src="selfie.jpg" alt="Picture of Andrew" class="right-aligned-float" id="selfie">
+        
+                <h2>Personal Info</h2>
+        
+                <ul>
+                    <li>Computer Science</li>
+                    <li>North East High School: 2016</li>
+                    <li>Senior</li>
+                    <li>Ben and Jerry's Half Baked</li>
+                </ul>
+        
+                <h2>My five favorite books</h2>
+        
+                <ol>
+                    <li>
+                        <p><cite>Uglies</cite> - <a href="https://scottwesterfeld.com/">Scott Westerfield</a></p>
+                    </li>
+                    <li>
+                        <p><cite>Pretties</cite> - <a href="https://scottwesterfeld.com/">Scott Westerfield</a></p>
+                    </li>
+                    <li>
+                        <p><cite>The Tripods: The White Mountains</cite> - <a href="https://en.wikipedia.org/wiki/John_Christopher">John Christopher</a></p>
+                    </li>
+                    <li>
+                        <p><cite>The Tripods: The City of Gold and Lead</cite>  - <a href="https://en.wikipedia.org/wiki/John_Christopher">John Christopher</a></p>
+                    </li>
+                    <li>
+                        <p><cite>The Tripods: The Pool of Fire</cite> - <a href="https://en.wikipedia.org/wiki/John_Christopher">John Christopher</a></p>
+                    </li>
+                </ol>
+        
+                <h2 class="centered">The Barrier</h2>
+                <div class="margin-bottom">
+                    <p class="centered">That which I spend my time doing now, on the cusp of life...</p>
+                </div>
+                <p class="centered">
+                    Endless hours pass,<br>
+                    Knowledge buried, time consumed,<br>
+                    Wisdom lost, freedom.
+                </p>
+        
+                <h2>My personal interests</h2>
+        
+                <p>I am a game developer. I am interested in pretty much all aspects of the game development process. I am particularly interested/involved in game systems engineering. I also have an interest in 3D Modeling though.</p>
+                <p>I also enjoy telling stories. This overlaps with my love of game development, as I believe it is the best medium for storytelling. Other than games though I am also a writer. I would like to extend some of my book narratives into the realm of video games.</p>
+                <p>When I am not involved in creating worlds either in text or on the screen I like to enjoy the ones others have built. I have a love for old movies and tv (like the golden age of hollywood). I think the vast majority of the excessive quantity of media coming out today is either terrible, or is just not really good enough to consume even though it may not be totally trash.</p>
+        
+                <h2>Class Schedule</h2>
+                
+                <table>
+                    <caption>Spring Semester 2024</caption>
+                    <tr>
+                        <th></th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+        
+                    <tr>
+                        <td>2:00</td>
+                        <td class="stats" rowspan="2">STATS 2050</td>
+                        <td class="stats" rowspan="2">STATS 2050</td>
+                        <td class="stats" rowspan="2">STATS 2050</td>
+                        <td class="stats" rowspan="2">STATS 2050</td>
+                        <td></td>
+                    </tr>
+        
+                    <tr>
+                        <td>2:30</td>
+                        <td></td>
+                    </tr>
+        
+                    <tr>
+                        <td>3:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+        
+                    <tr>
+                        <td>3:30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+        
+                    <tr>
+                        <td>4:00</td>
+                        <td class="compilers" rowspan="3">CS 4490</td>
+                        <td class="numerical" rowspan="3">CS 3320</td>
+                        <td class="compilers" rowspan="3">CS 4490</td>
+                        <td class="numerical" rowspan="3">CS 3320</td>
+                        <td></td>
+                    </tr>
+        
+                    <tr>
+                        <td>4:30</td>
+                        <td></td>
+                    </tr>
+        
+                    <tr>
+                        <td>5:00</td>
+                        <td></td>
+                    </tr>
+        
+                    <tr>
+                        <td>5:30</td>
+                        <td class="web" rowspan="3">CS 2550</td>
+                        <td></td>
+                        <td class="web" rowspan="3">CS 2550</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+        
+                    <tr>
+                        <td>6:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+        
+                    <tr>
+                        <td>6:30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="image-modal" id="carousel-image-modal">
+            <span class="image-modal-close">&times;</span>
+            <img class="image-modal-content" id="image-modal-image">
+        </div>
+
+        <script src="modal.js"></script>
+    </body>
+</html>
